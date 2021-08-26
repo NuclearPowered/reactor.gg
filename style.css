@@ -1,0 +1,48 @@
+html,
+body,
+.markdown-body.comic-mono {
+  background-color: #252423;
+  color: #bbbbbb;
+}
+
+.btn {
+  width: 32px;
+  height: 32px;
+}
+
+.markdown-body.comic-mono {
+  margin-left: auto;
+  margin-right: auto;
+  color: #bbbbbb;
+  border-radius: 3px;
+  font-family: Comic Mono, Cousine, monospace;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px;
+  max-width: 700px;
+}
+@media (min-width: 960px) {
+  .markdown-body.comic-mono {
+    max-width: 875px;
+    font-size: 20px;
+  }
+}
+
+.markdown-body.comic-mono h1,
+.markdown-body.comic-mono h2,
+.markdown-body.comic-mono h3,
+.markdown-body.comic-mono p,
+.markdown-body.comic-mono li,
+.markdown-body.comic-mono pre {
+  margin: 1.5em 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1.5em;
+  border: none;
+}
+
+.markdown-body.comic-mono h1,
+.markdown-body.comic-mono h2 {
+  color: #61afef;
+}
